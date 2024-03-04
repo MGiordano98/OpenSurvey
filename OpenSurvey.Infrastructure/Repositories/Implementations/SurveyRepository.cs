@@ -9,38 +9,8 @@ using System.Threading.Tasks;
 
 namespace OpenSurvey.Infrastructure.Repositories.Implementations
 {
-    public class SurveyRepository : ISurveyRepository
+    public class SurveyRepository : Repository<Survey>, ISurveyRepository
     {
         public SurveyRepository() { }
-
-        public void Add(Survey entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(Survey entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Edit(Survey entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Survey GetById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Survey> List()
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Survey> List(Expression<Func<Survey, bool>> predicate)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
